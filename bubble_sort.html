@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style4.css"><br>
+    </head>
+    <title>
+        Bubble Sort
+    </title>
+    <body background="D:\Web Development\html\bg5.jpg" style="background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: cover;">
+    <img src="D:\Web Development\html\bs.png" alt="content" class="centre">
+    <br>
+    <p style="text-align:center;">
+        <br>
+        Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison-based algorithm in which each pair of adjacent elements is compared and the elements are swapped if they are not in order. This algorithm is not suitable for large data sets as its average and worst case complexity are of Ο(n2) where n is the number of items.
+        <br><br>
+    </p>
+    <p style="text-align:center;">
+        <br>
+        <b>Algorithm</b>
+        <br><br>We assume list is an array of n elements. We further assume that swap function swaps the values of the given array elements.
+        <br><br><img src="D:\Web Development\html\bs-algo.png" alt="content" class="centre">
+    </p>
+    <br>
+    <p style="text-align:center;">
+        <br>
+        <b>Pseudocode</b>
+        <br>
+        <br>
+        We observe in algorithm that Bubble Sort compares each pair of array element unless the whole array is completely sorted in an ascending order. This may cause a few complexity issues like what if the array needs no more swapping as all the elements are already ascending.
+<br>
+To ease-out the issue, we use one flag variable swapped which will help us see if any swap has happened or not. If no swap has occurred, i.e. the array requires no more processing to be sorted, it will come out of the loop.
+<br>
+Pseudocode of BubbleSort algorithm can be written as follows −
+<br><br><img src="D:\Web Development\html\bs-pcode.png" alt="content" class="centre">
+<br><br>
+    </p>
+    <p style="text-align:center;">
+        <br>
+        <b>Implementation</b>
+        <br>
+        <br>
+        One more issue we did not address in our original algorithm and its improvised pseudocode, is that, after every iteration the highest values settles down at the end of the array. Hence, the next iteration need not include already sorted elements. For this purpose, in our implementation, we restrict the inner loop to avoid already sorted values.
+        <br><br>
+    </p>
+    
+        <p style="text-align:centre;"><a href="types.html"><b>  BACK  </b></a></p>
+        <p style="text-align:centre">
+        <a href="insertion_sort.html"><b>  NEXT </b></a>
+        </p>
+        
+    </body>
+</html>

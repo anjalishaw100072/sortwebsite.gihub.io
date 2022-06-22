@@ -1,0 +1,33 @@
+body {
+    font-family: "Fjalla One", Arial;
+  }
+  img {
+    border: 0px solid #e9d9f1;
+    border-radius: 500px;
+    padding: 1px 200px 1px 200px;
+    width: 4px fit-content;
+  }
+  p{
+    background-color: #fffbfb;
+    border: 2px solid #211e22;
+    border-radius: 20px;
+    color: #1a181b;
+    font-variant: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-style: oblique;
+    font-weight: 100;
+    font-stretch: initial;
+    font-size: x-large;
+  }
+  p{
+    background-color:  #ffffff;
+    border: 2px solid #211e22;
+    border-radius: 50px;
+    color: #1a181b;
+    font-variant: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-style: oblique;
+    font-weight: 100;
+    font-stretch: initial;
+    font-size: x-large;
+  }
